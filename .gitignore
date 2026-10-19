@@ -1,0 +1,15 @@
+# .NET build files
+**/bin/
+**/obj/
+.vs/
+
+# Angular dependencies and build files
+**/node_modules/
+**/.angular/
+**/dist/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+appsettings.Development.json
